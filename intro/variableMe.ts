@@ -16,5 +16,24 @@ greetings = 'Ajmal Faris';
 // Calling a string method on 'greetings' (valid operation)
 greetings.toLocaleLowerCase();
 
+
+
+//  number
+let userId = 334455 // type inferencess :- in typescript we dont need to mention the variable type when we assigning it that is a good practice
+
+
+//  boolean
+let isLoggedIn = false // :boolean this is not mandatory right now
+
+
+
+
+
+
+
+
+
+
+
 // Using `export {}` to make this file a module and avoid global scope issues
 export {};
