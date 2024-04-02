@@ -34,4 +34,11 @@ loginUser(
     "ajmalfaris.me@gmail.com" 
 ) // the function only accept the string type
 
+
+function numSquer(num:number): number {
+    return num * 2;
+    // return "hello world" --------> this code will show the error  
+    // due to mention this function only return the number data type " (): number "
+}
+
 export {}

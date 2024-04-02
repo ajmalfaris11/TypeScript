@@ -21,3 +21,8 @@ var loginUser = function (name, email, isPaid) {
 // isPaid: boolean have a default value ---> this is how we set default value 
 //  in this case its not mantatory to give me value
 loginUser("ajmal faris", "ajmalfaris.me@gmail.com"); // the function only accept the string type
+function numSquer(num) {
+    return num * 2;
+    // return "hello world" --------> this code will show the error  
+    // due to mention this function only return the number data type " (): number "
+}
