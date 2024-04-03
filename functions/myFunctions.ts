@@ -58,4 +58,10 @@ function numSquer(num:number): number {  // mention the function only return the
 
     // return ---->  wont work because :void
  }
+
+
+ function handleError(errmsg: string): never{ //never ------> do not return at all (e.g., throw errors or have infinite loops).
+
+    throw new Error(errmsg);
+ }
 export {}

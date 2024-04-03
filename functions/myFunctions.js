@@ -37,3 +37,6 @@ function consoleError(errmsg) {
     console.log(errmsg);
     // return ---->  wont work because :void
 }
+function handleError(errmsg) {
+    throw new Error(errmsg);
+}
