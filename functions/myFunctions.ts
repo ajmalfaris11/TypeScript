@@ -35,10 +35,19 @@ loginUser(
 ) // the function only accept the string type
 
 
-function numSquer(num:number): number {
+function numSquer(num:number): number {  // mention the function only return the number data type
     return num * 2;
     // return "hello world" --------> this code will show the error  
     // due to mention this function only return the number data type " (): number "
 }
+
+
+ const heros = ["thor", "spiderman", "ironman"];
+//  const heros = [1,2,3]; ----->  this one wont work because the map function expecting string data type
+
+ heros.map((hero: string): string => {
+    return `hello ${hero}`
+    // return 3 -------> wont work because return value expecting the string value "():string"
+ })
 
 export {}
