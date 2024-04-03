@@ -50,4 +50,12 @@ function numSquer(num:number): number {  // mention the function only return the
     // return 3 -------> wont work because return value expecting the string value "():string"
  })
 
+
+ function consoleError(errmsg: string): void { //void means the the function doesnt return anything 
+    // even we dont use the :void its will work but its better to use that expecilly working with other developers
+
+    console.log(errmsg);
+
+    // return ---->  wont work because :void
+ }
 export {}

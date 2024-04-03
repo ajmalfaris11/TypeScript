@@ -32,3 +32,8 @@ heros.map(function (hero) {
     return "hello ".concat(hero);
     // return 3 -------> wont work because return value expecting the string value "():string"
 });
+function consoleError(errmsg) {
+    // even we dont use the :void its will work but its better to use that expecilly working with other developers
+    console.log(errmsg);
+    // return ---->  wont work because :void
+}
