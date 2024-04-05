@@ -22,3 +22,12 @@ function create_user(user) {
 }
 // Calling 'create_user' with an empty 'Users' object
 create_user({ name: "", email: "", isActive: true });
+function createUser2(U) { }
+var myUser = {
+    _id: "12343",
+    name: "ajmal",
+    email: "ajmalfaris.me@gmail.com",
+    isActive: false,
+};
+// myUser._id = "ajdmasf"  ----> wont work this because in id mentioned read only
+myUser.name = "ajmal faris";
