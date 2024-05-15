@@ -1,7 +1,7 @@
 // Interface in TypeScript defines the structure of an object, including the properties and methods it should have.
 
 // Defining a 'User' interface with properties and methods
-type User = {
+interface User  {
     readonly dbId: number, // Readonly property 'dbId' that cannot be modified after initialization
     email: string, // Email property of type string
     userId: number, // User ID property of type number
